@@ -14,23 +14,26 @@ and identify where the largest user drop-offs occur.
 SELECT 
     COUNT(DISTINCT ad.app_download_key) AS app_downloads,
     COUNT(DISTINCT s.user_id) AS signups,
-    COUNT(DISTINCT CASE
-        WHEN rr.ride_id IS NOT NULL THEN s.user_id
-    END) AS ride_requested,
-    COUNT(DISTINCT CASE
-        WHEN rr.accept_ts IS NOT NULL THEN s.user_id
-    END) AS ride_accepted,
-    COUNT(DISTINCT CASE
-        WHEN rr.dropoff_ts IS NOT NULL THEN s.user_id
-    END) AS ride_completed,
-    COUNT(DISTINCT CASE
-        WHEN rr.dropoff_ts IS NOT NULL 
-         AND t.charge_status = 'Approved' 
-        THEN s.user_id
-    END) AS ride_paid,
-    COUNT(DISTINCT CASE
-        WHEN r.ride_id IS NOT NULL THEN s.user_id
-    END) AS ride_reviewed
+    COUNT(DISTINCT 
+            CASE
+                WHEN rr.ride_id IS NOT NULL THEN s.user_id
+            END) AS ride_requested,
+    COUNT(DISTINCT
+            CASE
+                WHEN rr.accept_ts IS NOT NULL THEN s.user_id
+            END) AS ride_accepted,
+    COUNT(DISTINCT
+            CASE
+                WHEN rr.dropoff_ts IS NOT NULL THEN s.user_id
+            END) AS ride_completed,
+    COUNT(DISTINCT 
+            CASE
+                WHEN rr.dropoff_ts IS NOT NULL AND t.charge_status = 'Approved' THEN s.user_id
+            END) AS ride_paid,
+    COUNT(DISTINCT 
+            CASE
+                WHEN r.ride_id IS NOT NULL THEN s.user_id
+            END) AS ride_reviewed
 FROM app_downloads ad
 LEFT JOIN signups s
     ON ad.app_download_key = s.session_id
