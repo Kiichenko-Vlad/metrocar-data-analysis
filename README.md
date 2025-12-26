@@ -64,8 +64,10 @@ changes by platform and age group.
 - Funnel comparison by age group
 
 **Key takeaway:**  
-The largest drop-off occurs between the *Ride Requested → Ride Accepted* stages,
-indicating supply-side or matching inefficiencies rather than demand issues.
+The largest drop-off occurs between the *Ride Accepted → Ride Completed* stages (~49%),
+indicating that while ride requests are successfully accepted, a significant share of rides
+fails during execution. This suggests experience-level or operational issues rather than
+demand or matching inefficiencies.
 
 ---
 
@@ -78,16 +80,20 @@ Metrics included:
 - Ride volume dynamics  
 
 **Key takeaway:**  
-Despite stable demand and acceptance times, cancellation rates remain elevated, suggesting structural inefficiencies rather than demand issues.
+Demand and ride volume follow clear and predictable daily patterns, while average time to accept
+remains relatively stable across hours. However, cancellation rates stay consistently high throughout
+the day, indicating that cancellations are not driven by peak demand alone and may be influenced by
+execution- or experience-level factors.
 
 ---
 
 ### 3️⃣ Platform & Age Insights
 **Purpose:** Analyze performance differences across platforms and age groups.  
 Key findings:
-- iOS dominates completed ride volume, while revenue per ride remains similar across platforms
+- iOS dominates completed ride volume, while revenue per ride remains nearly identical across platforms
 - Completion rates are relatively consistent across age groups
-- Web users show higher cancellation risk in specific age segments
+- Cancellation patterns vary more by platform than by age, with web users showing higher cancellation
+  rates in certain age segments
 
 ---
 
@@ -108,19 +114,23 @@ This indicates inconsistent user experience rather than a uniformly strong produ
 ---
 
 ## 🔍 Key Product Insights (Summary)
-- Demand peaks are predictable, but supply-side pressure drives acceptance delays and cancellations.
-- Platform differences are more pronounced in volume than in monetization efficiency.
-- Age-based differences exist but are less significant than expected.
-- Strong completion metrics do not guarantee customer satisfaction.
-- High rating polarization highlights experience consistency as a key risk area.
+- User demand follows clear and predictable daily patterns, with consistent morning and evening peaks.
+- Ride acceptance remains stable across hours, indicating that supply availability is generally sufficient at the matching stage.
+- The largest drop-off occurs after ride acceptance, suggesting execution- or experience-level issues during the ride lifecycle.
+- Platform differences are more pronounced in completed ride volume than in monetization efficiency, as average revenue per ride remains nearly identical across platforms.
+- Completion rates are relatively consistent across age groups, indicating limited age-driven behavioral differences.
+- Customer feedback is highly polarized, showing that strong operational metrics do not necessarily translate into a consistently positive user experience.
+
 
 ---
 
 ## 💡 Business Implications
 From a product perspective, the analysis suggests:
-- Optimizing supply during peak hours may reduce cancellations more effectively than increasing acquisition.
-- Improving experience consistency may deliver more value than improving average metrics.
-- Ratings should be monitored alongside operational KPIs, not treated as secondary signals.
+- Reducing cancellations requires a focus on post-acceptance execution and ride experience, rather than solely improving demand generation or acceptance speed.
+- Platform-specific volume differences should be addressed through targeted optimization, while monetization strategies can remain largely uniform.
+- Age-based segmentation offers limited leverage compared to platform and experience-level factors.
+- Customer ratings should be monitored alongside operational KPIs, as they reveal experience consistency risks not visible in funnel or completion metrics alone.
+
 
 ---
 
@@ -134,8 +144,3 @@ From a product perspective, the analysis suggests:
 - PostgreSQL  
 - DBeaver  
 - Tableau Public
-
----
-
-## 📎 Project Purpose
-This project was created as a portfolio case to demonstrate practical data analytics skills, including SQL-based analysis, data visualization, and product-oriented insight generation.
