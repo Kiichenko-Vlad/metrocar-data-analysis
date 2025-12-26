@@ -52,15 +52,20 @@ Interactive dashboards were built in Tableau to visualize insights and support p
 ### Dashboard Structure
 The Tableau Story is organized into four analytical sections:
 
-### 1️⃣ When & How Users Drop Off
-**Purpose:** Identify time-based behavioral patterns and operational bottlenecks.  
-Key insights:
-- Conversion rates by weekday × hour
-- Peak-hour demand pressure
-- Acceptance delays and cancellation risk  
+### 1️⃣ Where Users Drop Off in the Funnel
+**Purpose:**  
+Understand where users drop off across the ride lifecycle and how funnel performance
+changes by platform and age group.
+
+**Analysis includes:**
+- Full user funnel from app download to review
+- Ride-specific funnel focused on request → completion stages
+- Funnel comparison by platform (iOS / Android / Web)
+- Funnel comparison by age group
 
 **Key takeaway:**  
-Drop-offs are strongly time-dependent, with peak-hour pressure creating measurable friction in acceptance and completion.
+The largest drop-off occurs between the *Ride Requested → Ride Accepted* stages,
+indicating supply-side or matching inefficiencies rather than demand issues.
 
 ---
 
