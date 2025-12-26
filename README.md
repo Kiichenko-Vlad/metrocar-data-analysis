@@ -20,8 +20,8 @@ This project focuses on answering the following product-level questions:
 
 ## 🧱 Data Model & Sources
 The analysis is based on multiple relational tables, including:
-- **App downloads** — platform and acquisition data  
-- **User signups** — onboarding and activation  
+- **App downloads** — platform
+- **User signups** — onboarding and age range 
 - **Ride requests** — request, accept, complete, and cancel events  
 - **Transactions** — monetization and payment status  
 - **Reviews** — customer ratings and satisfaction signals  
