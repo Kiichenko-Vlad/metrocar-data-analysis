@@ -49,10 +49,14 @@ Each query is documented and focused on a single analytical objective.
 ---
 
 ## 📊 Dashboards (Tableau)
+
 Interactive dashboards were built in Tableau to visualize insights and support product decision-making.
 
 🔗 **Public Dashboard:**  
 [Tableau Public – Metrocar Product Analysis](LINK_HERE)
+
+🖼 **Dashboard Snapshots (static images):**  
+See dashboard screenshots in [`/dashboards`](dashboards/)
 
 ### Dashboard Structure
 The Tableau Story is organized into four analytical sections:
@@ -115,16 +119,6 @@ Customer satisfaction is highly polarized:
 - Nearly 40% low ratings (1–2 stars)  
 
 This indicates inconsistent user experience rather than a uniformly strong product.
-
----
-
-## 🔍 Key Product Insights (Summary)
-- User demand follows clear and predictable daily patterns, with consistent morning and evening peaks.
-- Ride acceptance remains stable across hours, indicating that supply availability is generally sufficient at the matching stage.
-- The largest drop-off occurs after ride acceptance, suggesting execution- or experience-level issues during the ride lifecycle.
-- Platform differences are more pronounced in completed ride volume than in monetization efficiency, as average revenue per ride remains nearly identical across platforms.
-- Completion rates are relatively consistent across age groups, indicating limited age-driven behavioral differences.
-- Customer feedback is highly polarized, showing that strong operational metrics do not necessarily translate into a consistently positive user experience.
 
 
 ---
