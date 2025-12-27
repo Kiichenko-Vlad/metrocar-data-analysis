@@ -115,7 +115,7 @@ Rating distribution shows a **highly polarized pattern**:
 
 This polarization indicates that users tend to experience Metrocar rides as either **very good or very poor**, rather than consistently average.
 
-![Figure 7 — Rating Distribution (1–5)](dashboards/images/fig_07_rating_distribution.png)
+![Figure 7 — Rating Distribution (1–5)](https://github.com/Kiichenko-Vlad/metrocar-data-analysis/blob/main/dashboards/images/fig_07_rating_distribution.png)
 
 *Nearly 40% of customer feedback falls into the lowest rating bucket (1–2), indicating a highly polarized user experience rather than consistent service quality.
 
