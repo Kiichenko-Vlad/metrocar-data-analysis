@@ -27,7 +27,7 @@ The highest-leverage opportunity for Metrocar is improving **operational reliabi
 
 ![Figure 1 — User Conversion Funnel](https://github.com/Kiichenko-Vlad/metrocar-data-analysis/blob/main/dashboards/images/fig_01_user_funnel.png)
 
-![Figure 2 — Ride Conversion Funnel]([dashboards/images/fig_02_ride_funnel.png](https://github.com/Kiichenko-Vlad/metrocar-data-analysis/blob/main/dashboards/images/fig_02_ride_funnel.png))
+![Figure 2 — Ride Conversion Funnel](https://github.com/Kiichenko-Vlad/metrocar-data-analysis/blob/main/dashboards/images/fig_02_ride_funnel.png)
 
 
 ---
