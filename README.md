@@ -46,6 +46,8 @@ All SQL queries are available in the `/sql` folder and are organized around key 
 
 Each query is documented and focused on a single analytical objective.
 
+[SQL Queries](https://github.com/Kiichenko-Vlad/metrocar-data-analysis/tree/main/sql)
+
 ---
 
 ## 📊 Dashboards (Tableau)
