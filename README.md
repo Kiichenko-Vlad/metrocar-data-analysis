@@ -53,7 +53,7 @@ Each query is documented and focused on a single analytical objective.
 Interactive dashboards were built in Tableau to visualize insights and support product decision-making.
 
 🔗 **Public Dashboard:**  
-[Tableau Public – Metrocar Product Analysis](LINK_HERE)
+[Tableau Public – Metrocar Product Analysis](https://public.tableau.com/app/profile/vladyslav.kiichenko/viz/MetrocarProductAnalyticsCase/MetrocarProductPerformanceSummary)
 
 🖼 **Dashboard Snapshots (static images):**  
 See dashboard screenshots in [`/dashboards`](dashboards/)
