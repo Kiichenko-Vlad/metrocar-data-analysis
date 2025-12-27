@@ -29,6 +29,11 @@ The analysis is based on multiple relational tables, including:
 These tables support the full user journey:  
 **Download → Signup → Ride Requested → Ride Accepted → Ride Completed → Payment → Review**
 
+The diagram below illustrates the logical data model used in the analysis,
+including key entities and relationships across the ride lifecycle.
+
+![Data Schema](assets/schema.png)
+
 ---
 
 ## 🧮 SQL Analysis
