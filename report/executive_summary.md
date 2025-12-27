@@ -11,8 +11,12 @@ To clearly distinguish between **user intent** and **operational execution**, tw
 - **User Conversion Funnel**  
   Users successfully progress through onboarding and request rides, but a **significant drop-off occurs after rides are accepted**, indicating that many users fail to reach ride completion despite confirmed intent.
 
+![Figure 1 — User Conversion Funnel](https://github.com/Kiichenko-Vlad/metrocar-data-analysis/blob/main/dashboards/images/fig_01_user_funnel.png)
+
 - **Ride Conversion Funnel**  
   The largest loss occurs **earlier in the process**, between ride request and acceptance, pointing to **supply, matching, or capacity constraints** that prevent requests from being fulfilled.
+
+![Figure 2 — Ride Conversion Funnel](https://github.com/Kiichenko-Vlad/metrocar-data-analysis/blob/main/dashboards/images/fig_02_ride_funnel.png)
 
 Together, these views demonstrate that **demand is present**, but **service delivery breaks at different stages depending on the level of analysis** — first during ride matching, and later during ride execution.
 
@@ -24,10 +28,6 @@ Together, these views demonstrate that **demand is present**, but **service deli
 
 **Conclusion:**  
 The highest-leverage opportunity for Metrocar is improving **operational reliability during peak hours** and stabilizing the **end-to-end ride execution experience**, rather than optimizing acquisition or pricing.
-
-![Figure 1 — User Conversion Funnel](https://github.com/Kiichenko-Vlad/metrocar-data-analysis/blob/main/dashboards/images/fig_01_user_funnel.png)
-
-![Figure 2 — Ride Conversion Funnel](https://github.com/Kiichenko-Vlad/metrocar-data-analysis/blob/main/dashboards/images/fig_02_ride_funnel.png)
 
 
 ---
