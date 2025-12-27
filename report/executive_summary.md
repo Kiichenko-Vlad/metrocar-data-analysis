@@ -104,18 +104,35 @@ Operational reliability and time-based capacity constraints remain the dominant 
 
 ---
 
-## 6) Customer Satisfaction
-Customer feedback is highly polarized:
-- **Positive (4–5):** 50.5%  
-- **Negative (1–2):** 39.5%  
-- **Neutral (3):** ~10%  
+## 6) Customer Satisfaction & Ratings
 
-This distribution indicates inconsistent service delivery rather than an “average quality” experience.
+While operational metrics highlight where performance degrades, customer ratings reveal **how users experience these failures**.
 
-**Product risk:**  
-Such polarization undermines trust, repeat usage, and long-term retention — even when revenue metrics appear stable.
+Rating distribution shows a **highly polarized pattern**:
+- **Positive ratings (4–5 stars)** account for just over half of all reviews
+- **Negative ratings (1–2 stars)** represent a critically large share
+- **Neutral ratings (3 stars)** are relatively rare
 
-![Figure 6 — Rating Distribution (1–5)](dashboards/images/fig_06_rating_distribution.png)
+This polarization indicates that users tend to experience Metrocar rides as either **very good or very poor**, rather than consistently average.
+
+![Figure 7 — Rating Distribution (1–5)](dashboards/images/fig_07_rating_distribution.png)
+
+*Nearly 40% of customer feedback falls into the lowest rating bucket (1–2), indicating a highly polarized user experience rather than consistent service quality.
+
+
+### Interpretation
+Such a distribution is a strong signal of **inconsistent service delivery**. When execution performs well, users are satisfied; however, failures during peak or stressed conditions lead to sharply negative experiences.
+
+Importantly, this insight would be **missed by looking only at average ratings**, which mask the underlying volatility in user experience.
+
+### Product implication
+High rating polarization poses a direct risk to:
+- user trust  
+- repeat usage  
+- long-term retention  
+
+Reducing the frequency of poor experiences—particularly during peak demand periods—may be more impactful than marginally improving already successful rides.
+
 
 ---
 
