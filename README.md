@@ -99,12 +99,15 @@ execution- or experience-level factors.
 ---
 
 ### 3️⃣ Platform & Age Insights
-**Purpose:** Analyze performance differences across platforms and age groups.  
-Key findings:
-- iOS dominates completed ride volume, while revenue per ride remains nearly identical across platforms
-- Completion rates are relatively consistent across age groups
-- Cancellation patterns vary more by platform than by age, with web users showing higher cancellation
-  rates in certain age segments
+**Purpose:** Analyze performance differences across platforms and age groups.
+
+**Key findings:**
+- iOS dominates completed ride volume, while revenue per ride remains nearly identical across platforms.
+- Cancellation rates vary meaningfully across **both platforms and age groups**, indicating that demographic factors contribute to performance differences.
+- Users with **unknown age** show the highest cancellation rates, in some cases exceeding differences observed between platforms.
+- This suggests that cancellation behavior is influenced not only by platform context, but also by **user characteristics and data completeness**, potentially reflecting lower intent, weaker engagement, or onboarding gaps.
+
+
 
 ---
 
