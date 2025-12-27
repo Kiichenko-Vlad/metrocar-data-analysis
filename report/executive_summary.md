@@ -52,9 +52,9 @@ Metrocar is commercially healthy, but elevated cancellations and inconsistent ex
   - The gap between requested and completed rides widens
 - Conversion rates from **request to accept** decline during peak windows and vary by weekday, indicating recurring stress points rather than isolated incidents.
 
-![Figure 3 — Ride Requests, Acceptances, and Completions by Hour](dashboards/images/fig_03_rides_by_hour.png)
+![Figure 3 — Ride Requests, Acceptances, and Completions by Hour](https://github.com/Kiichenko-Vlad/metrocar-data-analysis/blob/main/dashboards/images/fig_03_rides_by_hour.png)
 
-![Figure 4 — Request to Accept Conversion Rate by Weekday and Hour](dashboards/images/fig_04_request_accept_heatmap.png)
+![Figure 4 — Request to Accept Conversion Rate by Weekday and Hour](https://github.com/Kiichenko-Vlad/metrocar-data-analysis/blob/main/dashboards/images/fig_04_request_accept_heatmap.png)
 
 ### What it means
 User intent remains consistently strong throughout the day. However, the system struggles to absorb peak demand, pointing to **capacity, matching, or operational execution constraints** rather than demand-side issues.
