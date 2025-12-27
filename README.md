@@ -32,7 +32,7 @@ These tables support the full user journey:
 The diagram below illustrates the logical data model used in the analysis,
 including key entities and relationships across the ride lifecycle.
 
-![Data Schema](assets/schema.png)
+![Data Schema](LINK_HERE)
 
 ---
 
