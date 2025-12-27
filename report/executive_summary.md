@@ -1,19 +1,34 @@
 # 📊 Metrocar — Product Analytics Executive Report
 
 ## 1) Executive Summary
-This report evaluates Metrocar’s performance across the ride lifecycle — from request to completion, payment, and customer feedback.
 
-Metrocar demonstrates **strong demand and stable monetization**, but **operational reliability is the main constraint**. Cancellations remain high and user experience is inconsistent, reflected in a highly polarized rating distribution. Drop-offs are **systematic and time-dependent**, with the sharpest degradation concentrated in peak hours.
+This report evaluates Metrocar’s performance across the full ride lifecycle — from app download and ride request to completion, payment, and customer feedback.
 
-**Key takeaways**
-- **Cancellations are the primary bottleneck**, not onboarding.
-- **Peak hours correlate with weaker execution** (higher cancellations and lower completion).
-- **Platform differences explain volume**, while **revenue efficiency remains stable**.
-- **Ratings reveal experience volatility** that average operational metrics can mask.
+Metrocar demonstrates **strong demand and healthy monetization**; however, **operational reliability is the primary constraint on performance**. Analysis of both **user-level** and **ride-level** conversion funnels shows that drop-offs are not driven by onboarding, but by **execution and capacity limitations after demand has already been expressed**.
 
-**Conclusion:** The highest-leverage opportunity is improving **peak-hour reliability** and overall **service consistency**.
+To clearly distinguish between **user intent** and **operational execution**, two complementary funnel views are used:
 
-![Figure 1 — Executive KPI Snapshot](dashboards/images/fig_01_kpi_snapshot.png)
+- **User Conversion Funnel**  
+  Users successfully progress through onboarding and request rides, but a **significant drop-off occurs after rides are accepted**, indicating that many users fail to reach ride completion despite confirmed intent.
+
+- **Ride Conversion Funnel**  
+  The largest loss occurs **earlier in the process**, between ride request and acceptance, pointing to **supply, matching, or capacity constraints** that prevent requests from being fulfilled.
+
+Together, these views demonstrate that **demand is present**, but **service delivery breaks at different stages depending on the level of analysis** — first during ride matching, and later during ride execution.
+
+### Key takeaways
+- **Cancellations and unfulfilled rides are the primary bottlenecks**, not user acquisition or onboarding.
+- **Operational stress is time-dependent**, with performance degradation concentrated during peak demand periods.
+- **Platform differences explain volume distribution**, while **revenue efficiency remains stable** across platforms.
+- **Customer experience is inconsistent**, contributing to highly polarized ratings.
+
+**Conclusion:**  
+The highest-leverage opportunity for Metrocar is improving **operational reliability during peak hours** and stabilizing the **end-to-end ride execution experience**, rather than optimizing acquisition or pricing.
+
+![Figure 1 — User Conversion Funnel](dashboards/images/fig_01_user_funnel.png)
+
+![Figure 2 — Ride Conversion Funnel](dashboards/images/fig_02_ride_funnel.png)
+
 
 ---
 
