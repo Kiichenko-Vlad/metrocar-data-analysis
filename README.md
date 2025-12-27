@@ -149,4 +149,4 @@ From a product perspective, the analysis suggests:
 ## 👤 Author
 **Vladyslav Kiichenko**  
 📍 Ukraine  
-🔗 [LinkedIn](https://www.linkedin.com/in/vladyslav-kiichenko-81b3b3386/
+🔗 [LinkedIn](https://www.linkedin.com/in/vladyslav-kiichenko-81b3b3386/)
