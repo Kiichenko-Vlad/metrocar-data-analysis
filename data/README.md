@@ -27,4 +27,3 @@ using SQL scripts from the `/sql` directory.
 ## Notes
 - All datasets are aggregated and analysis-ready.
 - Raw transactional data and full database dumps are intentionally excluded.
-- Tableau extracts (.hyper / .twbx) are not stored to ensure reproducibility.
