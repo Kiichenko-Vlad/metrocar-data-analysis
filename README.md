@@ -135,7 +135,6 @@ From a product perspective, the analysis suggests:
 
 ## 📄 Analytical Report
 - [Executive Summary](report/executive_summary.md)
-- [Full Analytical Report](report/analytical_report.md)
 
 ---
 
