@@ -137,42 +137,35 @@ Reducing the frequency of poor experiences—particularly during peak demand per
 ---
 
 ## 7) Strategic Conclusions
-1. Demand is strong, but execution is uneven.  
-2. Cancellations are the primary performance bottleneck.  
-3. Monetization is stable across platforms.  
-4. Ratings expose volatility not visible in averages.  
-5. Peak-hour reliability is the highest-impact improvement area.
+
+1. Demand for Metrocar rides is strong, but execution quality is uneven.
+2. Cancellations and unfulfilled rides are the primary performance bottlenecks.
+3. Monetization is stable and consistent across platforms.
+4. Customer ratings reveal experience volatility that is not visible in average operational metrics.
+5. Peak-hour reliability represents the single highest-impact improvement opportunity.
+
 
 ---
 
 ## 8) Recommendations
+
 ### Short-term (operational control)
-- Increase peak-hour driver availability and matching capacity  
-- Monitor acceptance SLA breaches and trigger interventions  
+- Increase driver availability and matching capacity during peak hours
+- Monitor acceptance SLA breaches and trigger rapid operational interventions
 - Flag high-risk cancellation windows in real time (weekday × hour)
 
-### Mid-term (consistency focus)
-- Reduce the share of “bad rides,” not just optimize averages  
-- Use low ratings (1–2) as an early warning signal  
+### Mid-term (experience consistency)
+- Focus on reducing the share of “bad rides,” not just optimizing average performance
+- Use low ratings (1–2) as an early warning signal for operational failures
 - Investigate patterns behind low-rated rides (time window, platform, fulfillment issues)
 
 ### Long-term (system alignment)
-- Align operational KPIs with customer satisfaction metrics  
-- Shift from volume optimization toward **experience reliability**
+- Align operational KPIs with customer satisfaction outcomes
+- Shift optimization focus from ride volume toward **experience reliability**
+
 
 ---
 
 ## 9) Final Assessment
-Metrocar is commercially viable and scalable, but growth is constrained by operational reliability and inconsistent user experience. Stabilizing peak-hour performance and reducing the share of “very bad” experiences represents the highest-leverage path toward sustainable retention and long-term product health.
 
-## Final Conclusions & Recommendations
-
-### Key Takeaways
-- **Cancellations and unfulfilled rides are the primary bottlenecks**, not user acquisition or onboarding.
-- **Operational stress is time-dependent**, with performance degradation concentrated during peak demand periods.
-- **Platform differences explain volume distribution**, while **revenue efficiency remains stable** across platforms.
-- **Customer experience is inconsistent**, contributing to highly polarized ratings.
-
-### Strategic Focus
-The highest-leverage opportunity for Metrocar is improving **operational reliability during peak hours** and stabilizing the **end-to-end ride execution experience**, rather than optimizing acquisition or pricing.
-
+Metrocar is a commercially viable and scalable product, but growth is constrained by operational reliability and inconsistent execution during peak demand periods. Improving peak-hour performance and reducing the frequency of poor user experiences offers the highest leverage for sustainable retention and long-term product health.
