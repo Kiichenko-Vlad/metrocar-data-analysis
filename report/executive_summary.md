@@ -40,26 +40,28 @@ Metrocar is commercially healthy, but elevated cancellations and inconsistent ex
 ---
 
 ## 3) Funnel & Drop-Off Analysis
+
 ### What’s happening
 - The largest losses occur **after a ride is requested**, not during onboarding.
-- Drop-off behavior varies significantly by hour of day.
-- Two dominant demand peaks:
-  - **08:00–09:00**
-  - **16:00–18:00**
-- During these peak periods:
-  - Acceptance time increases  
-  - Cancellation probability rises  
-  - Completion rate declines  
+- Ride demand follows a clear daily pattern, with two dominant peak periods:
+  - **Morning peak:** 08:00–09:00  
+  - **Evening peak:** 16:00–18:00
+- During these peak hours:
+  - Ride requests increase sharply
+  - Acceptance and completion do not scale proportionally
+  - The gap between requested and completed rides widens
+- Conversion rates from **request to accept** decline during peak windows and vary by weekday, indicating recurring stress points rather than isolated incidents.
+
+![Figure 3 — Ride Requests, Acceptances, and Completions by Hour](dashboards/images/fig_03_rides_by_hour.png)
+
+![Figure 4 — Request to Accept Conversion Rate by Weekday and Hour](dashboards/images/fig_04_request_accept_heatmap.png)
 
 ### What it means
-User intent remains strong, but system capacity is stressed during peak windows. This points to **supply, matching, or operational execution constraints**, rather than weak demand.
+User intent remains consistently strong throughout the day. However, the system struggles to absorb peak demand, pointing to **capacity, matching, or operational execution constraints** rather than demand-side issues.
 
 ### Product implication
-Stabilizing peak-hour execution will disproportionately improve overall product outcomes.
+Improving execution reliability during peak hours represents a **high-leverage opportunity**. Even modest improvements in peak-hour acceptance and completion rates would yield a disproportionate impact on overall performance and customer experience.
 
-![Figure 3 — Requested vs Completed vs Cancelled by Hour](dashboards/images/fig_03_rides_by_hour.png)
-
-![Figure 4 — Peak-hour Risk Map (Weekday × Hour)](dashboards/images/fig_04_peak_hour_heatmap.png)
 
 ---
 
