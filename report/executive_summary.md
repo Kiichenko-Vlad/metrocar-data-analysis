@@ -25,7 +25,7 @@ Together, these views demonstrate that **demand is present**, but **service deli
 **Conclusion:**  
 The highest-leverage opportunity for Metrocar is improving **operational reliability during peak hours** and stabilizing the **end-to-end ride execution experience**, rather than optimizing acquisition or pricing.
 
-[Figure 1 — User Conversion Funnel][https://github.com/Kiichenko-Vlad/metrocar-data-analysis/blob/main/dashboards/images/fig_01_user_funnel.png]
+[Figure 1 — User Conversion Funnel](https://github.com/Kiichenko-Vlad/metrocar-data-analysis/blob/main/dashboards/images/fig_01_user_funnel.png)
 
 ![Figure 2 — Ride Conversion Funnel](dashboards/images/fig_02_ride_funnel.png)
 
