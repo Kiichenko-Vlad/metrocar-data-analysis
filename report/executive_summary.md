@@ -128,3 +128,15 @@ Such polarization undermines trust, repeat usage, and long-term retention — ev
 
 ## 8) Final Assessment
 Metrocar is commercially viable and scalable, but growth is constrained by operational reliability and inconsistent user experience. Stabilizing peak-hour performance and reducing the share of “very bad” experiences represents the highest-leverage path toward sustainable retention and long-term product health.
+
+## Final Conclusions & Recommendations
+
+### Key Takeaways
+- **Cancellations and unfulfilled rides are the primary bottlenecks**, not user acquisition or onboarding.
+- **Operational stress is time-dependent**, with performance degradation concentrated during peak demand periods.
+- **Platform differences explain volume distribution**, while **revenue efficiency remains stable** across platforms.
+- **Customer experience is inconsistent**, contributing to highly polarized ratings.
+
+### Strategic Focus
+The highest-leverage opportunity for Metrocar is improving **operational reliability during peak hours** and stabilizing the **end-to-end ride execution experience**, rather than optimizing acquisition or pricing.
+
