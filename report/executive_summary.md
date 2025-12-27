@@ -74,7 +74,7 @@ Platform-level analysis shows that completed rides are distributed unevenly acro
 
 This distribution reflects differences in user adoption and usage patterns rather than execution quality.
 
-![Figure 6 — Platform Contribution to Completed Rides](dashboards/images/fig_06_platform_contribution.png)
+![Figure 5 — Platform Contribution to Completed Rides](https://github.com/Kiichenko-Vlad/metrocar-data-analysis/blob/main/dashboards/images/fig_05_platform_contribution.png)
 
 ### Revenue efficiency
 Average revenue per ride remains consistent across platforms at approximately **$21**, indicating no meaningful monetization differences between iOS, Android, and Web users.
@@ -90,7 +90,7 @@ Analysis by age group shows that **ride completion rates are remarkably consiste
 
 Even the *Unknown* age category follows the same overall pattern, suggesting that demographic factors do not materially influence ride completion behavior.
 
-![Figure 7 — Ride Completion Rate by Age Group](dashboards/images/fig_07_completion_by_age.png)
+![Figure 6 — Ride Completion Rate by Age Group](https://github.com/Kiichenko-Vlad/metrocar-data-analysis/blob/main/dashboards/images/fig_06_completion_by_age.png)
 
 ### Interpretation
 User age does not appear to be a primary driver of cancellations or incomplete rides. Performance differences are minimal and statistically insignificant when compared to time-based or operational factors.
