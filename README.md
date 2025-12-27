@@ -142,3 +142,11 @@ From a product perspective, the analysis suggests:
 - PostgreSQL  
 - DBeaver  
 - Tableau Public
+
+
+---
+
+## 👤 Author
+**Vladyslav Kiichenko**  
+📍 Ukraine  
+🔗 [LinkedIn](https://www.linkedin.com/in/vladyslav-kiichenko-81b3b3386/
