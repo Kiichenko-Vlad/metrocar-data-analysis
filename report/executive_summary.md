@@ -20,30 +20,22 @@ To clearly distinguish between **user intent** and **operational execution**, tw
 
 Together, these views demonstrate that **demand is present**, but **service delivery breaks at different stages depending on the level of analysis** — first during ride matching, and later during ride execution.
 
-### Key takeaways
-- **Cancellations and unfulfilled rides are the primary bottlenecks**, not user acquisition or onboarding.
-- **Operational stress is time-dependent**, with performance degradation concentrated during peak demand periods.
-- **Platform differences explain volume distribution**, while **revenue efficiency remains stable** across platforms.
-- **Customer experience is inconsistent**, contributing to highly polarized ratings.
-
-**Conclusion:**  
-The highest-leverage opportunity for Metrocar is improving **operational reliability during peak hours** and stabilizing the **end-to-end ride execution experience**, rather than optimizing acquisition or pricing.
-
 
 ---
 
 ## 2) Key Product Metrics Snapshot
-The following metrics summarize overall product health and performance:
 
-- **Completion Rate:** 58.0% — moderate, indicating friction after request  
-- **Cancellation Rate:** 42.0% — high and the primary risk metric  
-- **Avg Time to Accept:** ~6.9 minutes — acceptable on average, but sensitive to peak hours  
-- **Avg Revenue per Ride:** ~$21 — stable monetization  
-- **Ratings:** High (4–5) 50.5% vs Low (1–2) 39.5% — experience quality is uneven  
+The following metrics provide a high-level snapshot of overall product health and establish a baseline for deeper analysis in subsequent sections:
 
-**Overall assessment:** Metrocar is commercially healthy, but reliability issues and inconsistent experience create a meaningful retention risk.
+- **Completion Rate:** 58.0% — moderate, indicating friction after the request stage  
+- **Cancellation Rate:** 42.0% — high and the primary operational risk metric  
+- **Avg Time to Accept:** ~6.9 minutes — acceptable on average, but sensitive to peak demand  
+- **Avg Revenue per Ride:** ~$21 — stable monetization across the platform  
+- **Ratings:** High (4–5) 50.5% vs Low (1–2) 39.5% — uneven and polarized user experience  
 
-![Figure 2 — Completion vs Cancellation](dashboards/images/fig_02_completion_vs_cancellation.png)
+**Overall assessment:**  
+Metrocar is commercially healthy, but elevated cancellations and inconsistent experience represent a meaningful risk to long-term retention. These metrics set the context for the time-based and operational analyses that follow.
+
 
 ---
 
