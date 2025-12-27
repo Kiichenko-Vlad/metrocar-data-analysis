@@ -24,6 +24,3 @@ using SQL scripts from the `/sql` directory.
 | average_customer_rating.csv | Overall average customer rating |
 | rating_vs_payment_status.csv | Relationship between ratings and payment status |
 
-## Notes
-- All datasets are aggregated and analysis-ready.
-- Raw transactional data and full database dumps are intentionally excluded.
